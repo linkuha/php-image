@@ -1,0 +1,46 @@
+{
+  "name": "linkuha/image",
+  "type": "library",
+  "description" : "GD processor and Exif reader",
+  "keywords": [
+    "GD",
+    "Exif",
+    "image"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/linkuha/php-image",
+  "authors": [
+    {
+      "name" : "Pudich Alexandr",
+      "email" : "linkuha@gmail.com",
+      "homepage" : "https://pudich.ru"
+    }
+  ],
+  "require": {
+    "php" : ">=5.6.0",
+    "lib-pcre": "*",
+    "ext-gd": "*",
+    "ext-exif": "*",
+    "ext-mbstring": "*"
+  },
+  "require-dev": {
+  },
+  "autoload": {
+    "psr-4": {
+      "SimpleLibs\\Image\\": "src"
+    },
+    "files": [
+      "polyfills/imagebmp.php",
+      "polyfills/imagecreatefrombmp.php"
+    ]
+  },
+  "autoload-dev": {
+  },
+  "suggest": {
+  },
+  "scripts": {
+  },
+  "config": {
+    "sort-packages": true
+  }
+}
