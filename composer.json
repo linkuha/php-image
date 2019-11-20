@@ -1,7 +1,7 @@
 {
   "name": "linkuha/image",
   "type": "library",
-  "description" : "GD processor and Exif reader",
+  "description" : "GD processor and Exif reader:w:",
   "keywords": [
     "GD",
     "Exif",

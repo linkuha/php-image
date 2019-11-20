@@ -1,4 +1,7 @@
-**Version:** 1.0beta
+**Version:** 1.0alpha
+
+Install:
+`composer require linkuha/image:dev-master`
 
 Exif reader
 
